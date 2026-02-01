@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Easy Skill | Online Learning Platform</title>
+  <style>
+    :root{
+      --black:#0b0b0f;
+      --purple:#6c4cff;
+      --orange:#ff8c32;
+      --white:#f5f5f5;
+    }
+    body{margin:0;font-family:'Segoe UI',sans-serif;background:var(--black);color:var(--white);line-height:1.7}
+    header{background:#000;padding:18px 60px;position:sticky;top:0;z-index:999}
+    nav{display:flex;justify-content:space-between;align-items:center}
+    nav a{color:var(--white);margin:0 14px;text-decoration:none;font-weight:500}
+    nav a:hover{color:var(--orange)}
+    .hero{padding:100px 60px;background:linear-gradient(135deg,#0b0b0f,#1a103f)}
+    .hero h1{font-size:46px;margin-bottom:15px;color:var(--purple)}
+    .hero p{max-width:760px;font-size:18px}
+    .btn{display:inline-block;background:var(--orange);color:#000;padding:14px 28px;border-radius:6px;margin-top:22px;text-decoration:none;font-weight:bold}
+    section{padding:80px 60px}
+    h2{text-align:center;margin-bottom:45px;color:var(--purple);font-size:34px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+    .card{background:#111;border-radius:12px;padding:28px;box-shadow:0 20px 40px rgba(0,0,0,0.5)}
+    .card img{width:100%;border-radius:10px}
+    .card h3{margin:18px 0 10px;color:var(--orange)}
+    .cta{background:linear-gradient(135deg,#6c4cff,#ff8c32);color:#000;text-align:center;padding:80px}
+    .cta h2{color:#000}
+    form input,form select,form textarea{width:100%;padding:14px;margin:12px 0;background:#000;border:1px solid #333;border-radius:6px;color:#fff}
+    footer{background:#000;text-align:center;padding:35px;color:#aaa}
+    .whatsapp{position:fixed;right:20px;bottom:20px;background:#25D366;color:#fff;padding:15px 20px;border-radius:50px;text-decoration:none;font-weight:bold}
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2 style="color:var(--purple)">Easy Skill</h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#blog">Blog</a>
+      <a href="#enroll">Enroll</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Learn Digital Skills. Build Your Future.</h1>
+  <p>Easy Skill is a premium online learning platform offering industry-focused courses through live and recorded classes. Learn practical skills, work on real projects, and start earning online.</p>
+  <a class="btn" href="#enroll">Start Learning</a>
+</section>
+
+<section id="about">
+  <h2>About Easy Skill</h2>
+  <p>Easy Skill is built for students who want real digital skills, not just theory. Our platform focuses on hands-on training, real-world tools, and step-by-step mentorship.</p>
+  <p>All courses are online and designed for beginners as well as professionals. Our mission is to empower learners to succeed in freelancing, remote jobs, and online businesses.</p>
+</section>
+
+<section id="courses">
+  <h2>Our Courses</h2>
+  <div class="grid">
+    <div class="card"><img src="https://via.placeholder.com/400x250"><h3>Graphic Designing</h3><p>Master Photoshop, Illustrator, branding, and social media design.</p></div>
+    <div class="card"><img src="https://via.placeholder.com/400x250"><h3>Digital Marketing</h3><p>Learn ads, SEO, content marketing, and freelancing strategies.</p></div>
+    <div class="card"><img src="https://via.placeholder.com/400x250"><h3>Web Development</h3><p>Build responsive websites using modern technologies.</p></div>
+    <div class="card"><img src="https://via.placeholder.com/400x250"><h3>Shopify Setup</h3><p>Launch your online store from scratch.</p></div>
+    <div class="card"><img src="https://via.placeholder.com/400x250"><h3>eBay Account Setup</h3><p>Start selling globally with eBay.</p></div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Ready to Upgrade Your Skills?</h2>
+  <p>Join Easy Skill today and start learning skills that pay.</p>
+  <a class="btn" href="#enroll">Enroll Today</a>
+</section>
+
+<section id="blog">
+  <h2>Blog</h2>
+  <div class="card">
+    <h3>Why Digital Skills Are the Future</h3>
+    <p>Digital skills give freedom, global income, and long-term growth. Learning the right skill today can change your future tomorrow.</p>
+  </div>
+</section>
+
+<section id="enroll">
+  <h2>Enroll Now</h2>
+  <form action="https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec" method="post">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="text" name="phone" placeholder="Phone Number" required>
+    <select name="course" required>
+      <option value="">Select Course</option>
+      <option>Graphic Designing</option>
+      <option>Digital Marketing</option>
+      <option>Web Development</option>
+      <option>Shopify Setup</option>
+      <option>eBay Account Setup</option>
+    </select>
+    <textarea name="experience" placeholder="Previous Experience"></textarea>
+    <input class="btn" type="submit" value="Submit">
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: info@easyskill.com</p>
+  <p>WhatsApp: 0370 2329369</p>
+</section>
+
+<footer>
+  <p>© 2026 Easy Skill. All Rights Reserved.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/923702329369" target="_blank">WhatsApp</a>
+
+</body>
+</html>
